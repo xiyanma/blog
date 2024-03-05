@@ -58,6 +58,7 @@ But, yeah, GLSL doesn't work in WebGPU, it has its own shading language (WGSL), 
   - TSL (https://threejs.org/examples/#webgpu_tsl_editor)
 
 Like anything else related to WebGPU, it's still "early" and the documentation for these things is very limited. GLSL still has far more documentation going for it. 
+
 上文给的三个选项：前两个是使用nodeMaterial，最后一个是使用 TSL（Three.js Shader Language），是使用一种更接近JavaScript的语法来编写着色器，支持webGPU；但它只是个抽象层，最终生成的着色器代码也是基于GLSL或WGSL的。综上：WGSL的支持还处在非常早期的阶段。
 
 
